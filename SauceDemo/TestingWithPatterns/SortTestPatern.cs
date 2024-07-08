@@ -19,8 +19,10 @@ namespace SauceDemo.TestingWithPatterns
                 .LogInButtonClick();
 
             inventoryPage
+                .GetUnsortableList()
                 .SortButtonClik()
-                .ZaButtonClick();
+                .ZaButtonClick()
+                .GetSortList();
 
             Assert.That(InventoryPagePattern.IsSortableZA(), Is.EqualTo(expected));
         }

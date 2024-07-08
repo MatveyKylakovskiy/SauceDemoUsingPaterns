@@ -12,7 +12,7 @@ namespace SauceDemo.WebPagesUsingPatern
         [FindsBy(How = How.CssSelector, Using = "[name|='add-to-cart']))")]
         private IWebElement AddToCartButton;
 
-        [FindsBy(How = How.ClassName, Using = "product_sort_container")]
+        [FindsBy(How = How.XPath, Using = "//*[@class='product_sort_container']")]
         private IWebElement SortButton;
 
         [FindsBy(How = How.XPath, Using = "//*[@value='za']")]
@@ -68,8 +68,20 @@ namespace SauceDemo.WebPagesUsingPatern
         public static bool IsSortableZA()
         {
             var elementsOrderByDescending = ListOfItemNamesUnSort.Select(e => e.Text).OrderByDescending(e => e).ToList();
+            var listOfItems = ListOfItemNamesSort.Select(s => s.Text).ToList();
 
-            return elementsOrderByDescending.Select(e => e).ToString() == ListOfItemNamesSort.Select(s => s).ToString();
+            return elementsOrderByDescending.Select(e => e).ToString() == listOfItems.Select(s => s).ToString();
         }
+
+       /* public static bool IsSortableLoHi()
+        {
+            var elementsOrder = ListOfPrices().Select(e => e.Text).Select(e => e.Remove(0, 1)).Select(e => e.Replace(".", ",")).Select(e => double.Parse(e)).OrderBy(e => e).ToList();
+            SortButton().Click();
+            LoHiSort().Click();
+
+            var sortLoHi = ListOfPrices().Select(s => s.Text).Select(e => e.Remove(0, 1)).Select(e => e.Replace(".", ",")).Select(e => double.Parse(e)).ToList();
+
+            return elementsOrder.Select(e => e).ToString() == sortLoHi.Select(s => s).ToString();
+        }*/
     }
 }
