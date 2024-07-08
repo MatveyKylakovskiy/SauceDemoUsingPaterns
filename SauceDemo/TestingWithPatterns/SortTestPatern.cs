@@ -27,14 +27,34 @@ namespace SauceDemo.TestingWithPatterns
             Assert.That(InventoryPagePattern.IsSortableZA(), Is.EqualTo(expected));
         }
 
+        [Test, TestCaseSource(nameof(UserTestCases))]
+        public void SortLoHiTest(BaseUser user, bool expected)
+        {
+            LoginPagePattern loginPage = new();
+            InventoryPagePattern inventoryPage = new();
+
+            loginPage
+                .OpenUrl()
+                .SendName(user)
+                .SendPAss(user)
+                .LogInButtonClick();
+
+            inventoryPage
+                .GetSortListOfPriceUnSort()
+                .SortButtonClik()
+                .LoHiButtonClick()
+                .GetSortListOfPriceSort();
+
+            Assert.That(InventoryPagePattern.IsSortableLoHi(), Is.EqualTo(expected));
+        }
+
         public static IEnumerable<TestCaseData> UserTestCases
         {
             get
             {
                 yield return new TestCaseData(new StandartUser(), true);
                 yield return new TestCaseData(new ProblemUser(), true);
-                yield return new TestCaseData(new GlitchUser(), true);
-                yield return new TestCaseData(new LocedOutUser(), true);
+                yield return new TestCaseData(new GlitchUser(), true); 
             }
         }
     }

@@ -21,7 +21,8 @@ namespace SauceDemo.WebPagesUsingPatern
         [FindsBy(How = How.XPath, Using = "//*[@value='lohi']")]
         private IWebElement LoHiSort;
 
-        private static List<IWebElement> ListOfPrices() => Driver.GetDriver().FindElements(By.CssSelector("div[class$='_item_price']")).ToList();
+        private static List<IWebElement> ListOfPricesUnSort; 
+        private static List<IWebElement> ListOfPricesSort; 
         private static List<IWebElement> ListOfItemNamesUnSort;
         private static List<IWebElement> ListOfItemNamesSort;
 
@@ -53,6 +54,17 @@ namespace SauceDemo.WebPagesUsingPatern
             ListOfItemNamesSort = Page.GetListOfElements(By.XPath("//div[@class='inventory_item_name ' and @data-test='inventory-item-name']")).ToList();
             return this;
         }
+        public InventoryPagePattern GetSortListOfPriceUnSort()
+        {
+            ListOfPricesUnSort = Page.GetListOfElements(By.CssSelector("div[class$='_item_price']")).ToList();
+            return this;
+        }
+        public InventoryPagePattern GetSortListOfPriceSort()
+        {
+            ListOfPricesSort = Page.GetListOfElements(By.CssSelector("div[class$='_item_price']")).ToList();
+            return this;
+        }
+
         public InventoryPagePattern SortButtonClik()
         {
             SortButton.Click();
@@ -65,6 +77,12 @@ namespace SauceDemo.WebPagesUsingPatern
             return this;
         }
 
+        public InventoryPagePattern LoHiButtonClick()
+        {
+            LoHiSort.Click();
+            return this;
+        }
+
         public static bool IsSortableZA()
         {
             var elementsOrderByDescending = ListOfItemNamesUnSort.Select(e => e.Text).OrderByDescending(e => e).ToList();
@@ -73,15 +91,12 @@ namespace SauceDemo.WebPagesUsingPatern
             return elementsOrderByDescending.Select(e => e).ToString() == listOfItems.Select(s => s).ToString();
         }
 
-       /* public static bool IsSortableLoHi()
+        public static bool IsSortableLoHi()
         {
-            var elementsOrder = ListOfPrices().Select(e => e.Text).Select(e => e.Remove(0, 1)).Select(e => e.Replace(".", ",")).Select(e => double.Parse(e)).OrderBy(e => e).ToList();
-            SortButton().Click();
-            LoHiSort().Click();
-
-            var sortLoHi = ListOfPrices().Select(s => s.Text).Select(e => e.Remove(0, 1)).Select(e => e.Replace(".", ",")).Select(e => double.Parse(e)).ToList();
+            var elementsOrder = ListOfPricesUnSort.Select(e => e.Text).Select(e => e.Remove(0, 1)).Select(e => e.Replace(".", ",")).Select(e => double.Parse(e)).OrderBy(e => e).ToList();
+            var sortLoHi = ListOfPricesSort.Select(s => s.Text).Select(e => e.Remove(0, 1)).Select(e => e.Replace(".", ",")).Select(e => double.Parse(e)).ToList();
 
             return elementsOrder.Select(e => e).ToString() == sortLoHi.Select(s => s).ToString();
-        }*/
+        }
     }
 }

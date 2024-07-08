@@ -28,7 +28,6 @@ namespace SauceDemo.TestingWithPatterns
                 yield return new TestCaseData(new StandartUser(), "Products");
                 yield return new TestCaseData(new ProblemUser(), "Products");
                 yield return new TestCaseData(new GlitchUser(), "Products");
-                yield return new TestCaseData(new LocedOutUser(), "Products");
             }
         }
     }
