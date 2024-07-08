@@ -2,36 +2,39 @@
 using SeleniumExtras.PageObjects;
 using PageObjLib.Factories;
 using PageObjLib.Pages;
+using SauceDemo.WebPages;
+using SauceDemo.Models.Users;
 
-namespace SauceDemo.WebPages
+namespace SauceDemo.WebPagesUsingPatern
 {
     internal class LoginPagePattern : BasePage
     {
+        private BaseUser user;
 
         [FindsBy(How = How.Id, Using = "user-name")]
-        public IWebElement UserNameField;
+        private IWebElement UserNameField;
 
         [FindsBy(How = How.Name, Using = "password")]
-        public IWebElement PasswordField;
+        private IWebElement PasswordField;
 
         [FindsBy(How = How.XPath, Using = "//input[@id='login-button']")]
-        public IWebElement LoginButton;
+        private IWebElement LoginButton;
 
-        
+
         public LoginPagePattern()
         {
             PageFactory.InitElements(Driver.GetDriver(), this);
         }
 
-        public LoginPagePattern SendName(string name)
+        public LoginPagePattern SendName(BaseUser user)
         {
-            UserNameField.SendKeys(name);
+            UserNameField.SendKeys(user.Name);
             return this;
         }
 
-        public LoginPagePattern SendPAss(string name)
+        public LoginPagePattern SendPAss(BaseUser user)
         {
-            PasswordField.SendKeys(name);
+            PasswordField.SendKeys(user.Pass);
             return this;
         }
 
@@ -54,5 +57,16 @@ namespace SauceDemo.WebPages
         }
 
         public string GetProductTetx() => Page.GetElement(By.XPath("//*[@class='title']")).Text;
+
+        public static void LoginByUser(BaseUser user)
+        {
+            LoginPagePattern loginPage = new();
+
+            loginPage
+                .OpenUrl()
+                .SendName(user)
+                .SendPAss(user)
+                .LogInButtonClick();
+        }
     }
 }
