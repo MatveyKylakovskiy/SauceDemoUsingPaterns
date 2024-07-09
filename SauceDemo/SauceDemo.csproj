@@ -30,6 +30,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="PageObjectLib">
+      <HintPath>..\..\HomeWork21\HomeWork21\bin\Debug\net8.0\PageObjectLib.dll</HintPath>
+    </Reference>
     <Reference Include="PageObjLib">
       <HintPath>bin\Debug\net8.0\PageObjLib.dll</HintPath>
     </Reference>

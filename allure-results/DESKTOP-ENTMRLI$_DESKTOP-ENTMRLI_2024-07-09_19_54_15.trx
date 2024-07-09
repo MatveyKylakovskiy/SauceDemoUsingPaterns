@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="33081fd0-73b9-401c-9ec2-1604a4db9ff7" name="DESKTOP-ENTMRLI$@DESKTOP-ENTMRLI 2024-07-09 19:54:15" runUser="NT AUTHORITY\СИСТЕМА" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-07-09T19:54:15.0750254+03:00" queuing="2024-07-09T19:54:15.0750255+03:00" start="2024-07-09T19:54:06.7137689+03:00" finish="2024-07-09T19:56:19.4992019+03:00" />
+  <TestSettings name="default" id="80b7f7e3-ba87-4b7a-8187-c4be74a74daa">
+    <Deployment runDeploymentRoot="DESKTOP-ENTMRLI$_DESKTOP-ENTMRLI_2024-07-09_19_54_15" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="c96b141a-45b0-4f41-9e92-164eeb215717" testId="0af4046d-c1e5-d6a6-c340-7377b18bfce8" testName="SortTestZA" computerName="DESKTOP-ENTMRLI" duration="00:00:06.4832440" startTime="2024-07-09T19:54:49.5602263+03:00" endTime="2024-07-09T19:54:56.0434705+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c96b141a-45b0-4f41-9e92-164eeb215717" />
+    <UnitTestResult executionId="c6ebbc2b-3995-4234-a0a2-4ea57dbaee97" testId="de4afc13-64e9-0cb0-97c3-5eb26063d19f" testName="LoginTest(SauceDemo.Models.Users.GlitchUser,&quot;Products&quot;)" computerName="DESKTOP-ENTMRLI" duration="00:00:10.9032280" startTime="2024-07-09T19:55:09.6178275+03:00" endTime="2024-07-09T19:55:20.5210554+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6ebbc2b-3995-4234-a0a2-4ea57dbaee97" />
+    <UnitTestResult executionId="f486f19d-d984-4fb4-b0e7-064ea3343825" testId="e76f4651-6621-169a-e4ce-b6f64de3796d" testName="CheckoutTest1(&quot;Thank you for your order!&quot;)" computerName="DESKTOP-ENTMRLI" duration="00:00:07.3910720" startTime="2024-07-09T19:54:15.0138619+03:00" endTime="2024-07-09T19:54:22.4049333+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f486f19d-d984-4fb4-b0e7-064ea3343825" />
+    <UnitTestResult executionId="36e8c299-773a-410b-a9f7-ec65e20a31e8" testId="0f2c29dd-d406-29ed-a2a0-a271cd772fd9" testName="SortAZTest(SauceDemo.Models.Users.ProblemUser,True)" computerName="DESKTOP-ENTMRLI" duration="00:00:06.4832580" startTime="2024-07-09T19:55:27.4147377+03:00" endTime="2024-07-09T19:55:33.8979953+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36e8c299-773a-410b-a9f7-ec65e20a31e8" />
+    <UnitTestResult executionId="26426a8e-8bf9-46cd-a260-ef062fd96720" testId="e820882c-0b74-9231-55b9-da6ab0ce0d29" testName="BurgerMenuLogoutTest(&quot;https://www.saucedemo.com/inventory.html&quot;,&quot;https://www.saucedemo.com/&quot;)" computerName="DESKTOP-ENTMRLI" duration="00:00:07.5176540" startTime="2024-07-09T19:54:07.4924803+03:00" endTime="2024-07-09T19:54:15.0100416+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26426a8e-8bf9-46cd-a260-ef062fd96720" />
+    <UnitTestResult executionId="5b5a10e4-a616-44a9-a757-1c29697cb3e6" testId="ff400e9a-a4c4-170f-a674-9a98506e8a1f" testName="SortLoHiTest(SauceDemo.Models.Users.GlitchUser,True)" computerName="DESKTOP-ENTMRLI" duration="00:00:16.3501710" startTime="2024-07-09T19:56:03.0835563+03:00" endTime="2024-07-09T19:56:19.4337266+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b5a10e4-a616-44a9-a757-1c29697cb3e6" />
+    <UnitTestResult executionId="0ae43b8f-d3a0-4ab0-8f95-e552735ff59b" testId="ffb5f75b-f8b0-aaf6-6e3e-dd252c277b54" testName="SortAZTest(SauceDemo.Models.Users.GlitchUser,True)" computerName="DESKTOP-ENTMRLI" duration="00:00:16.3434100" startTime="2024-07-09T19:55:33.8981155+03:00" endTime="2024-07-09T19:55:50.2415254+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ae43b8f-d3a0-4ab0-8f95-e552735ff59b" />
+    <UnitTestResult executionId="32508b32-220b-465a-82a5-1fa6cdf913fa" testId="a478c34f-15c4-7b5f-8a49-c0eb78a5b8af" testName="SortLoHiTest(SauceDemo.Models.Users.StandartUser,True)" computerName="DESKTOP-ENTMRLI" duration="00:00:06.9010460" startTime="2024-07-09T19:55:50.2416277+03:00" endTime="2024-07-09T19:55:57.1426736+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32508b32-220b-465a-82a5-1fa6cdf913fa" />
+    <UnitTestResult executionId="4b54ef16-4267-4c2c-9e6c-84c0449206fc" testId="751324b6-97d5-dc77-02d4-2b428ce717fb" testName="SortAZTest(SauceDemo.Models.Users.StandartUser,True)" computerName="DESKTOP-ENTMRLI" duration="00:00:06.8933320" startTime="2024-07-09T19:55:20.5213347+03:00" endTime="2024-07-09T19:55:27.4146668+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b54ef16-4267-4c2c-9e6c-84c0449206fc" />
+    <UnitTestResult executionId="5bd484c3-58f5-4199-b007-989cd9177adf" testId="ed06dc31-bf6e-c420-f5f6-e05e3142e3d8" testName="LoginTest(SauceDemo.Models.Users.StandartUser,&quot;Products&quot;)" computerName="DESKTOP-ENTMRLI" duration="00:00:06.5590460" startTime="2024-07-09T19:54:56.0438145+03:00" endTime="2024-07-09T19:55:02.6028603+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bd484c3-58f5-4199-b007-989cd9177adf" />
+    <UnitTestResult executionId="3d58be60-dbb6-41b4-aed5-068f14814b78" testId="11d45e68-b829-72e3-a63b-9a7c6c9f5842" testName="SortTestLoHi" computerName="DESKTOP-ENTMRLI" duration="00:00:06.8422480" startTime="2024-07-09T19:54:42.7179479+03:00" endTime="2024-07-09T19:54:49.5601958+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d58be60-dbb6-41b4-aed5-068f14814b78" />
+    <UnitTestResult executionId="dc4438aa-bb82-4e8e-8044-a880d428b3a7" testId="dbff805c-2382-91a4-1785-1d76cb7901a1" testName="LoginTestEmptyNegative(&quot;Epic sadface: Username is required&quot;)" computerName="DESKTOP-ENTMRLI" duration="00:00:06.1330960" startTime="2024-07-09T19:54:22.4052789+03:00" endTime="2024-07-09T19:54:28.5383743+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc4438aa-bb82-4e8e-8044-a880d428b3a7" />
+    <UnitTestResult executionId="3cb396f2-6174-47d9-b3fe-a3de020e3644" testId="7691d437-ccb5-c127-97aa-6e2e53d2381a" testName="LoginTest(SauceDemo.Models.Users.ProblemUser,&quot;Products&quot;)" computerName="DESKTOP-ENTMRLI" duration="00:00:07.0148670" startTime="2024-07-09T19:55:02.6028925+03:00" endTime="2024-07-09T19:55:09.6177589+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cb396f2-6174-47d9-b3fe-a3de020e3644" />
+    <UnitTestResult executionId="c93b8682-efbd-4542-a750-8ac6c6c0bc76" testId="ed0cac24-3485-fb62-d744-f19d9e68f18d" testName="SortLoHiTest(SauceDemo.Models.Users.ProblemUser,True)" computerName="DESKTOP-ENTMRLI" duration="00:00:05.9408200" startTime="2024-07-09T19:55:57.1426997+03:00" endTime="2024-07-09T19:56:03.0835193+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c93b8682-efbd-4542-a750-8ac6c6c0bc76" />
+    <UnitTestResult executionId="61f2cfa4-f2d6-4b41-bfdf-6841154fa95a" testId="efaafd31-9a5d-f3b1-6828-660b3852b6e5" testName="LoginTestPositive(&quot;https://www.saucedemo.com/inventory.html&quot;)" computerName="DESKTOP-ENTMRLI" duration="00:00:06.4988140" startTime="2024-07-09T19:54:36.2180676+03:00" endTime="2024-07-09T19:54:42.7168809+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61f2cfa4-f2d6-4b41-bfdf-6841154fa95a" />
+    <UnitTestResult executionId="c27df4b1-49ee-471f-a40f-3feddfeb0f8e" testId="4ab15c6d-ca3e-a955-b0fa-07a9e9ccee28" testName="LoginTestNegative(&quot;Epic sadface: Username and password do not match any user in this service&quot;)" computerName="DESKTOP-ENTMRLI" duration="00:00:07.6794660" startTime="2024-07-09T19:54:28.5384802+03:00" endTime="2024-07-09T19:54:36.2179455+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c27df4b1-49ee-471f-a40f-3feddfeb0f8e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="LoginTest(SauceDemo.Models.Users.ProblemUser,&quot;Products&quot;)" storage="d:\prog\saucedemousingpaterns\saucedemo\bin\debug\net8.0\saucedemo.dll" id="7691d437-ccb5-c127-97aa-6e2e53d2381a">
+      <Execution id="3cb396f2-6174-47d9-b3fe-a3de020e3644" />
+      <TestMethod codeBase="D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.TestingWithPatterns.LoginTestPatern" name="LoginTest(SauceDemo.Models.Users.ProblemUser,&quot;Products&quot;)" />
+    </UnitTest>
+    <UnitTest name="SortLoHiTest(SauceDemo.Models.Users.ProblemUser,True)" storage="d:\prog\saucedemousingpaterns\saucedemo\bin\debug\net8.0\saucedemo.dll" id="ed0cac24-3485-fb62-d744-f19d9e68f18d">
+      <Execution id="c93b8682-efbd-4542-a750-8ac6c6c0bc76" />
+      <TestMethod codeBase="D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.TestingWithPatterns.SortTestPatern" name="SortLoHiTest(SauceDemo.Models.Users.ProblemUser,True)" />
+    </UnitTest>
+    <UnitTest name="LoginTest(SauceDemo.Models.Users.StandartUser,&quot;Products&quot;)" storage="d:\prog\saucedemousingpaterns\saucedemo\bin\debug\net8.0\saucedemo.dll" id="ed06dc31-bf6e-c420-f5f6-e05e3142e3d8">
+      <Execution id="5bd484c3-58f5-4199-b007-989cd9177adf" />
+      <TestMethod codeBase="D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.TestingWithPatterns.LoginTestPatern" name="LoginTest(SauceDemo.Models.Users.StandartUser,&quot;Products&quot;)" />
+    </UnitTest>
+    <UnitTest name="LoginTestPositive(&quot;https://www.saucedemo.com/inventory.html&quot;)" storage="d:\prog\saucedemousingpaterns\saucedemo\bin\debug\net8.0\saucedemo.dll" id="efaafd31-9a5d-f3b1-6828-660b3852b6e5">
+      <Execution id="61f2cfa4-f2d6-4b41-bfdf-6841154fa95a" />
+      <TestMethod codeBase="D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.TestingLogin.LoginTest" name="LoginTestPositive(&quot;https://www.saucedemo.com/inventory.html&quot;)" />
+    </UnitTest>
+    <UnitTest name="LoginTestEmptyNegative(&quot;Epic sadface: Username is required&quot;)" storage="d:\prog\saucedemousingpaterns\saucedemo\bin\debug\net8.0\saucedemo.dll" id="dbff805c-2382-91a4-1785-1d76cb7901a1">
+      <Execution id="dc4438aa-bb82-4e8e-8044-a880d428b3a7" />
+      <TestMethod codeBase="D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.TestingLogin.LoginTest" name="LoginTestEmptyNegative(&quot;Epic sadface: Username is required&quot;)" />
+    </UnitTest>
+    <UnitTest name="SortTestLoHi" storage="d:\prog\saucedemousingpaterns\saucedemo\bin\debug\net8.0\saucedemo.dll" id="11d45e68-b829-72e3-a63b-9a7c6c9f5842">
+      <Execution id="3d58be60-dbb6-41b4-aed5-068f14814b78" />
+      <TestMethod codeBase="D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.TestingSort.SortTest" name="SortTestLoHi" />
+    </UnitTest>
+    <UnitTest name="LoginTest(SauceDemo.Models.Users.GlitchUser,&quot;Products&quot;)" storage="d:\prog\saucedemousingpaterns\saucedemo\bin\debug\net8.0\saucedemo.dll" id="de4afc13-64e9-0cb0-97c3-5eb26063d19f">
+      <Execution id="c6ebbc2b-3995-4234-a0a2-4ea57dbaee97" />
+      <TestMethod codeBase="D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.TestingWithPatterns.LoginTestPatern" name="LoginTest(SauceDemo.Models.Users.GlitchUser,&quot;Products&quot;)" />
+    </UnitTest>
+    <UnitTest name="SortAZTest(SauceDemo.Models.Users.GlitchUser,True)" storage="d:\prog\saucedemousingpaterns\saucedemo\bin\debug\net8.0\saucedemo.dll" id="ffb5f75b-f8b0-aaf6-6e3e-dd252c277b54">
+      <Execution id="0ae43b8f-d3a0-4ab0-8f95-e552735ff59b" />
+      <TestMethod codeBase="D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.TestingWithPatterns.SortTestPatern" name="SortAZTest(SauceDemo.Models.Users.GlitchUser,True)" />
+    </UnitTest>
+    <UnitTest name="SortAZTest(SauceDemo.Models.Users.ProblemUser,True)" storage="d:\prog\saucedemousingpaterns\saucedemo\bin\debug\net8.0\saucedemo.dll" id="0f2c29dd-d406-29ed-a2a0-a271cd772fd9">
+      <Execution id="36e8c299-773a-410b-a9f7-ec65e20a31e8" />
+      <TestMethod codeBase="D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.TestingWithPatterns.SortTestPatern" name="SortAZTest(SauceDemo.Models.Users.ProblemUser,True)" />
+    </UnitTest>
+    <UnitTest name="SortLoHiTest(SauceDemo.Models.Users.GlitchUser,True)" storage="d:\prog\saucedemousingpaterns\saucedemo\bin\debug\net8.0\saucedemo.dll" id="ff400e9a-a4c4-170f-a674-9a98506e8a1f">
+      <Execution id="5b5a10e4-a616-44a9-a757-1c29697cb3e6" />
+      <TestMethod codeBase="D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.TestingWithPatterns.SortTestPatern" name="SortLoHiTest(SauceDemo.Models.Users.GlitchUser,True)" />
+    </UnitTest>
+    <UnitTest name="SortTestZA" storage="d:\prog\saucedemousingpaterns\saucedemo\bin\debug\net8.0\saucedemo.dll" id="0af4046d-c1e5-d6a6-c340-7377b18bfce8">
+      <Execution id="c96b141a-45b0-4f41-9e92-164eeb215717" />
+      <TestMethod codeBase="D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.TestingSort.SortTest" name="SortTestZA" />
+    </UnitTest>
+    <UnitTest name="SortLoHiTest(SauceDemo.Models.Users.StandartUser,True)" storage="d:\prog\saucedemousingpaterns\saucedemo\bin\debug\net8.0\saucedemo.dll" id="a478c34f-15c4-7b5f-8a49-c0eb78a5b8af">
+      <Execution id="32508b32-220b-465a-82a5-1fa6cdf913fa" />
+      <TestMethod codeBase="D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.TestingWithPatterns.SortTestPatern" name="SortLoHiTest(SauceDemo.Models.Users.StandartUser,True)" />
+    </UnitTest>
+    <UnitTest name="CheckoutTest1(&quot;Thank you for your order!&quot;)" storage="d:\prog\saucedemousingpaterns\saucedemo\bin\debug\net8.0\saucedemo.dll" id="e76f4651-6621-169a-e4ce-b6f64de3796d">
+      <Execution id="f486f19d-d984-4fb4-b0e7-064ea3343825" />
+      <TestMethod codeBase="D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.TestingCheckout.CheckoutTest" name="CheckoutTest1(&quot;Thank you for your order!&quot;)" />
+    </UnitTest>
+    <UnitTest name="SortAZTest(SauceDemo.Models.Users.StandartUser,True)" storage="d:\prog\saucedemousingpaterns\saucedemo\bin\debug\net8.0\saucedemo.dll" id="751324b6-97d5-dc77-02d4-2b428ce717fb">
+      <Execution id="4b54ef16-4267-4c2c-9e6c-84c0449206fc" />
+      <TestMethod codeBase="D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.TestingWithPatterns.SortTestPatern" name="SortAZTest(SauceDemo.Models.Users.StandartUser,True)" />
+    </UnitTest>
+    <UnitTest name="BurgerMenuLogoutTest(&quot;https://www.saucedemo.com/inventory.html&quot;,&quot;https://www.saucedemo.com/&quot;)" storage="d:\prog\saucedemousingpaterns\saucedemo\bin\debug\net8.0\saucedemo.dll" id="e820882c-0b74-9231-55b9-da6ab0ce0d29">
+      <Execution id="26426a8e-8bf9-46cd-a260-ef062fd96720" />
+      <TestMethod codeBase="D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.TestingBurger.BurgerMenuTest" name="BurgerMenuLogoutTest(&quot;https://www.saucedemo.com/inventory.html&quot;,&quot;https://www.saucedemo.com/&quot;)" />
+    </UnitTest>
+    <UnitTest name="LoginTestNegative(&quot;Epic sadface: Username and password do not match any user in this service&quot;)" storage="d:\prog\saucedemousingpaterns\saucedemo\bin\debug\net8.0\saucedemo.dll" id="4ab15c6d-ca3e-a955-b0fa-07a9e9ccee28">
+      <Execution id="c27df4b1-49ee-471f-a40f-3feddfeb0f8e" />
+      <TestMethod codeBase="D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll" adapterTypeName="executor://nunit3testexecutor/" className="SauceDemo.TestingLogin.LoginTest" name="LoginTestNegative(&quot;Epic sadface: Username and password do not match any user in this service&quot;)" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="0af4046d-c1e5-d6a6-c340-7377b18bfce8" executionId="c96b141a-45b0-4f41-9e92-164eeb215717" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de4afc13-64e9-0cb0-97c3-5eb26063d19f" executionId="c6ebbc2b-3995-4234-a0a2-4ea57dbaee97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e76f4651-6621-169a-e4ce-b6f64de3796d" executionId="f486f19d-d984-4fb4-b0e7-064ea3343825" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f2c29dd-d406-29ed-a2a0-a271cd772fd9" executionId="36e8c299-773a-410b-a9f7-ec65e20a31e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e820882c-0b74-9231-55b9-da6ab0ce0d29" executionId="26426a8e-8bf9-46cd-a260-ef062fd96720" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff400e9a-a4c4-170f-a674-9a98506e8a1f" executionId="5b5a10e4-a616-44a9-a757-1c29697cb3e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ffb5f75b-f8b0-aaf6-6e3e-dd252c277b54" executionId="0ae43b8f-d3a0-4ab0-8f95-e552735ff59b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a478c34f-15c4-7b5f-8a49-c0eb78a5b8af" executionId="32508b32-220b-465a-82a5-1fa6cdf913fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="751324b6-97d5-dc77-02d4-2b428ce717fb" executionId="4b54ef16-4267-4c2c-9e6c-84c0449206fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed06dc31-bf6e-c420-f5f6-e05e3142e3d8" executionId="5bd484c3-58f5-4199-b007-989cd9177adf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11d45e68-b829-72e3-a63b-9a7c6c9f5842" executionId="3d58be60-dbb6-41b4-aed5-068f14814b78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbff805c-2382-91a4-1785-1d76cb7901a1" executionId="dc4438aa-bb82-4e8e-8044-a880d428b3a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7691d437-ccb5-c127-97aa-6e2e53d2381a" executionId="3cb396f2-6174-47d9-b3fe-a3de020e3644" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed0cac24-3485-fb62-d744-f19d9e68f18d" executionId="c93b8682-efbd-4542-a750-8ac6c6c0bc76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efaafd31-9a5d-f3b1-6828-660b3852b6e5" executionId="61f2cfa4-f2d6-4b41-bfdf-6841154fa95a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ab15c6d-ca3e-a955-b0fa-07a9e9ccee28" executionId="c27df4b1-49ee-471f-a40f-3feddfeb0f8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Список результатов" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="16" executed="16" passed="16" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.5.0.0: Test execution started&#xD;
+Running all tests in D:\Prog\SauceDemoUsingPaterns\SauceDemo\bin\Debug\net8.0\SauceDemo.dll&#xD;
+   NUnit3TestExecutor discovered 16 of 16 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.5.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
